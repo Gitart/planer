@@ -6,6 +6,27 @@
 1. Запуск оригинальной базы и прохождение всех объектов базы данны
 или тех которые только нужны т.е. записанные в таблице сканирования
 
+## Structure table
+
+|Id|Field|Description
+|---|---|---|
+|Id|Id|Уникальный номер
+|Object|String|Наименование объекта базы данных
+|Created|String|Дата создания
+|Chaged|String|Дата изменения
+|Size|String|Размер КБ оригинального объекта
+|Hash|String|Hash оригинального объекта
+|Sizeс|String|Размер КБ 
+|Hashс|String|Hash
+|Status|String|Статус сравнения 
+|Develop|String|Разработчик
+|Place|String|Место сравнения 
+
+
+
+
+
+
 ## Check table
 
 |Id|Object type|Object name|Size|Hash|Date|Ru|Original Size|Orig Hash|Orig Date|Status|
